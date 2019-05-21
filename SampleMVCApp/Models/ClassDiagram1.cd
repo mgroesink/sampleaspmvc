@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Hoe maak je hier een database van?&#xD;&#xA;&#xD;&#xA;1. Verwerk de gegevens van docenten en studenten en docenten in de tabel AspNetUsers door extra velden toe te voegen. &#xD;&#xA;2. Voeg alle velden uit AspNetUsers toe aan zowel de tabel student als de tabel docent.&#xD;&#xA;3. Maak voor iedere class een aparte tabel aan en link deze op basis van de id uit de tabel AspnetUser.&#xD;&#xA;">
+    <Position X="7.592" Y="3.808" Height="1.808" Width="3.433" />
+  </Comment>
+  <Class Name="SampleMVCApp.AspnetUser">
+    <Position X="4.25" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACCAAAAACAAIEAAAAAAQAABAAAAAAAIAQQAABAAAQA=</HashCode>
+      <FileName>AspnetUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SampleMVCApp.Student">
+    <Position X="3" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAEAAAAAAIAAAAAA=</HashCode>
+      <FileName>Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SampleMVCApp.Docent">
+    <Position X="5.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAEIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Docent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

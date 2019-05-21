@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b385c9ecc89b4fb887bcc301753e1caf" Name="Diagram1">
+        <EntityTypeShape EntityType="SampleMVCAppDBModel.AspNetRoles" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="SampleMVCAppDBModel.AspNetUsers" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="SampleMVCAppDBModel.AspNetUserRoles" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="SampleMVCAppDBModel.Students" Width="1.5" PointX="5.25" PointY="5.875" />
+        <EntityTypeShape EntityType="SampleMVCAppDBModel.Teachers" Width="1.5" PointX="5.25" PointY="8.75" />
+        <AssociationConnector Association="SampleMVCAppDBModel.FK__Students__Id__6477ECF3" />
+        <AssociationConnector Association="SampleMVCAppDBModel.FK__Teachers__Id__5FB337D6" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

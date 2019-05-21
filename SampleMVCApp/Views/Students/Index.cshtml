@@ -1,0 +1,51 @@
+﻿@model IEnumerable<SampleMVCApp.ViewModels.StudentVm>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Crebo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Slb)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Group)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Username)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Crebo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Slb)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Group)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Username)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>
